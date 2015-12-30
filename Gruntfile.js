@@ -13,13 +13,13 @@ module.exports = function (grunt) {
             options: {
                 target: 'es5', // --target
                 module: 'commonjs', // --module
-                noImplicitAny: true // --noImplicitAny 
+                noImplicitAny: true // --noImplicitAny                
             },
             // main
             // test
             main: {
-                src: ['<%= opt.tsDir %>/*.ts'],
-                outDir: '<%= opt.outDir %>/js'
+                src: ['<%= opt.tsDir %>/**/*.ts'],
+                out: '<%= opt.outDir %>/js/Main.js' 
             }
         },
         tsd: {
@@ -104,7 +104,7 @@ module.exports = function (grunt) {
     });
     
     grunt.registerTask('setup', ['clean', 'tsd', 'copy', 'bower']);
-    grunt.registerTask('default', ['ts', 'tslint']);
+    grunt.registerTask('default', ['ts']);
     
     // 
     grunt.loadNpmTasks('grunt-contrib-copy');

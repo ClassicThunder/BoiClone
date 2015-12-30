@@ -6,25 +6,25 @@
   "bundle": "typings/tsd.d.ts",
   "installed": {
     "threejs/three.d.ts": {
-      "commit": "a6ff9f6e195a334afd89e4b721d05e9520eee4c0"
+      "commit": "dc9dabe74a5be62613b17a3605309783a12ff28a"
     },
     "stats/stats.d.ts": {
-      "commit": "a6ff9f6e195a334afd89e4b721d05e9520eee4c0"
+      "commit": "dc9dabe74a5be62613b17a3605309783a12ff28a"
     },
     "jquery/jquery.d.ts": {
-      "commit": "a6ff9f6e195a334afd89e4b721d05e9520eee4c0"
+      "commit": "dc9dabe74a5be62613b17a3605309783a12ff28a"
     },
     "webaudioapi/waa.d.ts": {
-      "commit": "a6ff9f6e195a334afd89e4b721d05e9520eee4c0"
+      "commit": "dc9dabe74a5be62613b17a3605309783a12ff28a"
     },
     "webrtc/MediaStream.d.ts": {
-      "commit": "a6ff9f6e195a334afd89e4b721d05e9520eee4c0"
+      "commit": "dc9dabe74a5be62613b17a3605309783a12ff28a"
     },
     "dat-gui/dat-gui.d.ts": {
-      "commit": "a6ff9f6e195a334afd89e4b721d05e9520eee4c0"
+      "commit": "dc9dabe74a5be62613b17a3605309783a12ff28a"
     },
     "es6-promise/es6-promise.d.ts": {
-      "commit": "a6ff9f6e195a334afd89e4b721d05e9520eee4c0"
+      "commit": "dc9dabe74a5be62613b17a3605309783a12ff28a"
     }
   }
 }
